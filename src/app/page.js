@@ -65,7 +65,7 @@ export default function Home() {
         <div className={styles.heroContent}>
           <span className="holo-badge">
             <span className="pulse-dot" />
-            TODOS OS SISTEMAS ONLINE
+            TODOS OS SISTEMAS ONLINE — ANO 2150
           </span>
 
           <h1 className={styles.heroTitle}>
