@@ -65,11 +65,11 @@ export default function Home() {
         <div className={styles.heroContent}>
           <span className="holo-badge">
             <span className="pulse-dot" />
-            SISTEMA OPERACIONAL DESDE 2020
+            TODOS OS SISTEMAS ONLINE
           </span>
 
           <h1 className={styles.heroTitle}>
-            Infraestruturas<br />do Futuro
+            Hospedagem do Futuro
           </h1>
 
           <p className={styles.heroSubtitle}>
@@ -100,8 +100,8 @@ export default function Home() {
               <div className={styles.heroStatLabel}>Latência Média</div>
             </div>
             <div className={styles.heroStat}>
-              <div className={styles.heroStatValue}>3</div>
-              <div className={styles.heroStatLabel}>Data Centers BR</div>
+              <div className={styles.heroStatValue}>∞</div>
+              <div className={styles.heroStatLabel}>Escalabilidade</div>
             </div>
             <div className={styles.heroStat}>
               <div className={styles.heroStatValue}>24/7</div>
@@ -375,28 +375,28 @@ export default function Home() {
           <div className={`glass-card ${styles.statusCard}`}>
             <div className={styles.statusCardHeader}>
               <span className="pulse-dot" />
-              <span className={styles.statusCardName}>BR1 — MASTER</span>
+              <span className={styles.statusCardName}>COMPUTE</span>
             </div>
             <div className={styles.statusCardUptime}>99.99%</div>
-            <div className={styles.statusCardLabel}>São Paulo</div>
+            <div className={styles.statusCardLabel}>Processamento</div>
           </div>
 
           <div className={`glass-card ${styles.statusCard}`}>
             <div className={styles.statusCardHeader}>
               <span className="pulse-dot" />
-              <span className={styles.statusCardName}>BR2 — NODE</span>
+              <span className={styles.statusCardName}>STORAGE</span>
             </div>
             <div className={styles.statusCardUptime}>99.98%</div>
-            <div className={styles.statusCardLabel}>São Paulo</div>
+            <div className={styles.statusCardLabel}>Armazenamento</div>
           </div>
 
           <div className={`glass-card ${styles.statusCard}`}>
             <div className={styles.statusCardHeader}>
               <span className="pulse-dot" />
-              <span className={styles.statusCardName}>BR3 — NODE</span>
+              <span className={styles.statusCardName}>NETWORK</span>
             </div>
             <div className={styles.statusCardUptime}>99.97%</div>
-            <div className={styles.statusCardLabel}>São Paulo</div>
+            <div className={styles.statusCardLabel}>Rede</div>
           </div>
 
           <div className={`glass-card ${styles.statusCard}`}>
